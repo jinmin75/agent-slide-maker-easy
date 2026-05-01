@@ -18,3 +18,38 @@ _archive/
 topics/*
 !topics/hangul-600/
 !topics/_template/
+
+# === Dependencies ===
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# === IDE / Editor ===
+.vs/
+.vscode/
+.idea/
+
+# === Claude Code global config (not part of this repo) ===
+.claude/
+
+# === Archives & extracted bundles ===
+*.zip
+ffmpeg_extracted/
+skill_making_harness-template/
+
+# === Sibling/sub projects (not part of HyperFrames) ===
+korea_university_project/
+My_Project/
+ai-pos4/
+imagipark-personal/
+
+# === External downloaded projects (have their own purpose) ===
+AgenticWorkflow-main/
+Dissertation-Simulator-AgenticWorkflow-main/
+Vibe-learning-AgenticWorkflow-main/
+Writingbook-AgenticWorkflow-main/
+
+# === Nested git repositories (DO NOT track as submodules) ===
+codex-plugin-cc/
+context7/
